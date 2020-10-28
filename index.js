@@ -194,14 +194,7 @@ function ask(question, yes, no) {
     function() { alert("You agreed."); },
     function() { alert("You canceled the execution."); }
   );
-
-  ask(
-      'Do you agree?',
-      () => alert('You agreed.'),
-      () => alert('You canceled the execution.');
-  )
-
-
+  
 function sumTo(n){
     let result = 0;
     for(let i=1; i <= n; i++){    
@@ -215,11 +208,11 @@ function sumTo(n){
     return n === 1 ? n : n + sumTo(n-1);
 }
 
-function sumTo(n){
+function sum(n){
     return ((2 + n-1)/2)*n;
 }
 
 
-function factorial(n){
+function fact(n){
     return n === 1 ? n : n * factorial(n-1);
 }
