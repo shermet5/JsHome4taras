@@ -17,15 +17,15 @@ function() {
 }
 
 function(){
-    alert( null || 2 || undefined ); / 2
+    alert( null || 2 || undefined );
 }
 
 function(){
-    alert( alert(1) || 2 || alert(3) ); / 1 => 2
+    alert( alert(1) || 2 || alert(3) );
 }
 
 function(){
-    alert( 1 && null && 2 ); / null
+    alert( 1 && null && 2 );
 }
 
 function(){
@@ -33,7 +33,7 @@ function(){
 }
 
 function(){
-    alert( null || 2 && 3 || 4 ); /3
+    alert( null || 2 && 3 || 4 );
 }
 function age(){
     let age = 14;
@@ -59,15 +59,15 @@ function(){
 
 function(){
     let i = 0;
-    while (++i < 5) alert( i ); // 1 => 2 => 3 => 4 
+    while (++i < 5) alert( i );  
 
     let j = 0;
-    while (j++ < 5) alert( j ); // 1 => 2 => 3 => 4 => 5
+    while (j++ < 5) alert( j ); 
 }
 
 function(){
-    for (let i = 0; i < 5; i++) alert( i ); // 0 => 1 => 2 => 3 => 4 
-    for (let i = 0; i < 5; ++i) alert( i ); // 0 => 1 => 2 => 3 => 4
+    for (let i = 0; i < 5; i++) alert( i );  
+    for (let i = 0; i < 5; ++i) alert( i ); 
 }
 
 function (){
